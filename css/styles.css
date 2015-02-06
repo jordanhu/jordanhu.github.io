@@ -1,0 +1,378 @@
+body {
+	background:url("../images/victoriantextureedited.jpg");
+
+	 }
+
+h3 {
+	top:30px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	opacity:.85;
+	font-family: 'Arvo', serif;
+	color: white;
+	text-align: center;
+}
+
+ .telegramholder {
+ 	position:relative;
+ 	left:-25px;
+ }
+
+.original { 
+   position:relative;
+   top: 0px;
+   left: -60px;
+   display : block;
+   width : 700px;
+   z-index:500;
+   height : 406px; 
+}
+
+.pink { 
+	position:absolute;
+	top: 0px;
+	left: -60px;
+    display : block;
+    z-index:500;
+    width : 700px;
+    height : 406px; 
+    }
+
+.moneyholder {
+ 	position:absolute;
+	top: 1100px;
+	left: 125px;
+    display : block;
+    width : 200px;
+    height : 206px; 
+    z-index:500;
+ }
+
+ .newspaper {
+ 	position:relative;
+ }
+
+.original2 { 
+	position:relative;
+	z-index:400;
+}
+
+.pink2 { 
+	position:absolute;
+	z-index:500;
+	top:0px;
+}
+
+ .vintageholder {
+ 	position:absolute;
+ 	top:835px;
+ 	left:-90px;
+ }
+
+.original3 { 
+	position: absolute;
+    display : block;
+    width : 700px;
+    height : 406px; 
+ }
+
+.pink3 { 
+	position: absolute;
+	top: 0px;
+    display : block;
+}
+
+.budapestsign {
+	position:relative;
+}
+
+.sign1 { 
+    display : block;
+ }
+
+.sign2 { 
+	position: absolute;
+	top: 0px;
+    display : block;
+}
+
+.vintagecollection {
+position:relative;
+top:0px;
+left:-50px;
+}
+
+.vintagecollection2 {
+position:absolute;
+top:2810px;
+left:100px;
+}
+
+.vintagecollection3 {
+position:absolute;
+top:2790px;
+left:370px;
+}
+
+.vintage1 {
+	display: block;
+	top:20px;
+}
+
+.box {
+	display:block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.vintage2 {
+	position: absolute;
+	top: 0px;
+    display : block;
+}
+
+.vintage3 {
+	position: absolute;
+	top: 0px;
+    display : block;
+}
+
+.vintage4 {
+	top: 1000px;
+    display : block;
+    z-index:900;
+}
+
+.vintage5 {
+	top: -6px;
+	left:-8px;
+    display : block;
+}
+
+.vintage6 {
+	position:absolute;
+	top:4px;
+	left:4px;
+    display : block;
+}
+
+.budapestbook {
+	position:relative;
+	top: 30px;
+	left: 0px; 
+    z-index:500;
+}
+
+.book1 { 
+	position:relative;
+    display : block;
+    left:150px;
+ }
+
+.book2 { 
+	position: absolute;
+	top: 0px;
+	left: 150px;
+    display : block;
+}
+
+.newspaper {
+	position:relative;
+}
+
+.newspaper1 {
+	position:relative;
+    display : block;
+    left:70px;
+}
+
+.newspaper2 {
+	position:absolute;
+    display : block;
+    top:0px;
+    left:70px;
+}
+
+#wrapper {
+	position:absolute;
+	top:1290px;left:410px;
+	width:42%; margin: 0 auto; text-align: left;	
+}
+
+.example {
+	font-family: 'PT Sans', sans-serif;
+	position:absolute;
+	top:2435px;left:310px;
+	width:250px;height:200px;
+	color:white;
+	letter-spacing: .7px;
+	line-height: 22px;
+	z-index:900;
+}
+
+.example2 {
+	font-family: 'PT Sans', sans-serif;
+	position:absolute;
+	top:2630px;left:582px;
+	width:250px;height:50px;
+	color:white;
+	line-height: 22px;
+	letter-spacing: .7px;
+	z-index:700;
+}
+
+.example3 {
+	font-family: 'PT Sans', sans-serif;
+	position:absolute;
+	top:2315px;left:800px;
+	width:250px;height:200px;
+	color:white;
+	line-height: 22px;
+	letter-spacing: .7px;
+	z-index:300;
+}
+
+.example4 {
+	font-family: 'PT Sans', sans-serif;
+	position:absolute;
+	top:4085px;left:640px;
+	width:250px;height:200px;
+	color:white;
+	line-height: 22px;
+	letter-spacing: .7px;
+	z-index:300;
+}
+
+.example5 {
+	font-family: 'PT Sans', sans-serif;
+	position:absolute;
+	top:2265px;left:800px;
+	width:250px;height:200px;
+	color:white;
+	line-height: 22px;
+	letter-spacing: .7px;
+	z-index:300;
+}
+
+.example8 {
+	font-family: 'PT Sans', sans-serif;
+	position:absolute;
+	top:6200px;left:410px;
+	width:250px;height:200px;
+	color:white;
+	line-height: 22px;
+	letter-spacing: .7px;
+	z-index:700;
+}
+
+.intro {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+	top:70px;
+	letter-spacing: .5px;
+	color: black;
+	opacity: .8;
+	}
+
+.packaging {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.youarereading {
+	position:fixed;
+	top:10px;right:-20px;
+	z-index: 300;
+}
+
+.interviewer {
+	font-family: 'Arvo', serif;
+	color: #660033;
+	letter-spacing: .7px;
+	line-height: 22px;
+}
+
+.interviewee {
+	font-family: 'PT Sans', sans-serif;
+	color: #660033;
+	letter-spacing: .3px;
+	line-height: 22px;
+}
+
+.playfair {
+	font-family: 'PT Sans', sans-serif;
+}
+
+.rectangle {
+	position:absolute;
+	top:1285px;
+	left:80px;
+	opacity:.4;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fullbleedimage {
+	position: absolute;
+	top: 0px; left:0px;
+}
+
+.telegrambanknotes {
+ 	top:200px;left: 100px;
+	display: block;
+	width:700px;
+	height:406px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+.collection {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newspaper {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intromessage {
+	float:left;
+}
+.book {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.annie {
+	display:block;
+	left:50%;
+	margin:0 auto;
+}
+
+.bottomimage {
+	position:relative;
+	left:-415px;
+	bottom:-4px;
+}
+
+.textcontainer {
+	margin:0 auto;
+	left: 50%;
+	display:block;
+	width: 65%; height: auto;
+	padding: 100px;
+}
+
+.bottomtext {
+	font-family: 'Arvo', serif;
+	color: #660033;
+	letter-spacing: .7px;
+	line-height: 22px;
+	text-align:center;
+}
