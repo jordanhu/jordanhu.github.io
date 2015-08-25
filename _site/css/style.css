@@ -24,7 +24,7 @@ a:hover {
 
 header {
   text-align: center;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 nav ul, ul.entries {
