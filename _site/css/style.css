@@ -1,19 +1,17 @@
 body {
-  font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
-  background: black;
-  color: #ececec;
+  font-family: 'Fira Mono';
+  background-color: rgb(237,236,214);
   padding: 0;
   margin: 0;
 }
-ul {
-  margin: 0;
-  padding: 0;
-}
+
+/* color of links */
 a {
-  color: #ccc;
+  color: rgb(141,188,146);
   text-decoration: none;
 }
 
+/* color changes when hovering over link */
 a:hover {
   color: #ececec;
   text-decoration: underline;
@@ -22,24 +20,24 @@ a:hover {
 #main {
   width: 960px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 0.4);
 }
+
 header {
-  padding: 0 10px;
-  overflow: hidden;
-}
-h1 {
-  margin: 0;
+  text-align: center;
+  overflow: scroll;
 }
 
 nav ul, ul.entries {
   list-style-type: none;
 }
+
 nav li a {
   float: left;
   margin: 5px;
 }
+
 .content {
+  text-align: center;
   padding: 10px;
 }
 
@@ -69,6 +67,10 @@ ul.entries a:hover {
 }
 
 footer {
-  font-size: 0.65em;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: rgb(141,188,146);
+  color: rgb(237,236,214);
+  font-size: 1em;
   text-align: center;
 }
