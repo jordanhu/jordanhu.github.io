@@ -1,0 +1,26 @@
+body {
+  padding:27%;
+  border: 5px solid rgb(237,236,214);
+  border-radius: 25px;
+  background-color: rgb(141,188,146);
+}
+
+.content1 {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 21px/2.5 fira mono;
+  text-align: center;
+  color: rgb(237,236,214);
+}
+
+.content2 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 80px/1.0 fira mono;
+  text-align: center;
+  color: rgb(237,236,214);
+}
