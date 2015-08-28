@@ -7,6 +7,7 @@ body {
 
 /* color of links */
 a {
+  color: rgb(237,236,214);
   text-decoration: none;
 }
 
@@ -22,19 +23,22 @@ header {
   overflow: hidden;
 }
 
-table, td {
+/*
+img {
+  border:1px solid #021a40;
+}
+*/
+
+table {
   /* border: 1px solid black; */
-  font-size: 15px;
+  font-size: 16px;
   color: rgb(237,236,214);
   empty-cells: inherit;
 }
 
-/*
-img.logo {
-  max-width:2%;
-  max-height:2%;
+td.certain {
+  font-size:145%
 }
-*/
 
 .banner {
   display: block;
