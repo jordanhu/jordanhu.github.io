@@ -5,6 +5,22 @@ body {
   margin: 0;
 }
 
+header {
+  text-align: center;
+  background-color: rgb(141,188,146);
+  overflow: hidden;
+}
+
+table {
+  /* border: 1px solid black; */
+  font-size: 23px;
+  color: rgb(237,236,214);
+  empty-cells: inherit;
+}
+td.certain {
+  font-size:200%
+}
+
 img {
   display:block;
   margin-left: auto;
