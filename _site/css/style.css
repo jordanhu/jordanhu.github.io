@@ -23,11 +23,9 @@ header {
   overflow: hidden;
 }
 
-/*
 img {
-  border:1px solid #021a40;
+  border:2px solid rgb(237,236,214);;
 }
-*/
 
 table {
   /* border: 1px solid black; */
