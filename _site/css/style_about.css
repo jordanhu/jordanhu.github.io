@@ -1,9 +1,20 @@
 body {
   font-family: 'Droid Sans Mono';
-  font: 16px/1.5 fira mono;
   background-color: rgb(237,236,214);
   padding: 0;
   margin: 0;
+}
+
+/* color of links */
+a {
+  color: rgb(237,236,214);
+  text-decoration: none;
+}
+
+/* color changes when hovering over link */
+a:hover {
+  color: #ececec;
+  text-decoration: underline;
 }
 
 header {
@@ -14,12 +25,12 @@ header {
 
 table {
   /* border: 1px solid black; */
-  font-size: 23px;
+  font-size: 18px;
   color: rgb(237,236,214);
   empty-cells: inherit;
 }
 td.certain {
-  font-size:200%
+  font-size:165%
 }
 
 img {
@@ -33,7 +44,7 @@ img {
 }
 
 p.padding {
-  font: 20px/2.5 fira mono;
+  font: 20px/2.5 'Droid Sans Mono';
   color: rgb(141,188,146);
   padding-top: 1px;
   padding-right: 225px;
