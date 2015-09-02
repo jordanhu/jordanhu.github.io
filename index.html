@@ -2,10 +2,27 @@
 layout: default
 ---
 <br>
+
+<!--
 <img class = "banner" src = "/img/banner.jpg" />
+-->
 
 <section class = "content">
+  <ul class="entries" style="list-style-type:none">
+    {% for project in site.posts %}
+
+    <li>
+      <a href="{{ project.url }}">
+        <img src="{{ project.image }}" />
+        <h3>{{ project.title }}</h3>
+      </a>
+    </li>
+
+    {% endfor %}
+  </ul>
+
   <p>
     Site Under Construction! Please Excuse Our Appearance!
   </p>
+
 </section>
