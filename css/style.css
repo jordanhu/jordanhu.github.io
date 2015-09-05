@@ -26,7 +26,7 @@ header {
 
 /*
 img {
-  border:2px solid rgb(237,236,214);;
+border:2px solid rgb(237,236,214);;
 }
 */
 
@@ -40,10 +40,11 @@ td.certain {
   font-size:145%
 }
 
-.banner {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+table.project_data {
+  /* border: 1px solid black; */
+  line-height: 35px;
+  color: rgb(141,188,146);
+  padding: 10px;
 }
 
 .content {
@@ -75,6 +76,7 @@ ul.entries a {
 ul.entries a:hover {
   color: #fff;
 }
+
 
 footer {
   padding-top: 20px;

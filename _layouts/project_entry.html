@@ -1,9 +1,27 @@
 ---
 layout: default
 ---
-
+<!--
 <h2 class="content">{{page.title}}</h2>
+-->
 
-<img src="{{ page.image }}" width = 50%/>
-
-{{ content }}
+<table class = "project_data">
+  <th width = "50%">
+    {{ content }}
+  </th>
+  <th width = "50%">
+    <img src="{{ page.image0 }}" width = 70% height = 10%/>
+  </th>
+</table>
+<table class = "project_data">
+  <tr>
+    <td align = "center"> <img src="{{ page.image1 }}" width = 70%/> </td>
+    <td align = "center"> <img src="{{ page.image2 }}" width = 70%/> </td>
+    <td align = "center"> <img src="{{ page.image3 }}" width = 70%/> </td>
+  </tr>
+  <tr>
+    <td align = "center"> <img src="{{ page.image4 }}" width = 70%/> </td>
+    <td align = "center"> <img src="{{ page.image5 }}" width = 70%/> </td>
+    <td align = "center"> <img src="{{ page.image6 }}" width = 70%/> </td>
+  </tr>
+</table>
