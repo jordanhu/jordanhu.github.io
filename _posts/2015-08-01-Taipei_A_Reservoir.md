@@ -11,7 +11,7 @@ image6: /img/projects/Taipei_A_Reservoir/TaipeiReservoir6.jpg
 title: Taipei, A Reservoir
 ---
 
-# Taipei: A Reservoir                     
+# Taipei: A Reservoir
 
 ###### August 2015
 
