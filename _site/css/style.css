@@ -40,11 +40,22 @@ td.certain {
   font-size:145%
 }
 
-table.project_data {
+table.project_data1 {
   /* border: 1px solid black; */
   line-height: 35px;
   color: rgb(141,188,146);
-  padding: 50px;
+  padding-top: 50px;
+  padding-left: 115px;
+}
+
+table.project_data2 {
+  /* border: 1px solid black; */
+  line-height: 35px;
+  color: rgb(141,188,146);
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
 }
 
 #text {
